@@ -1,0 +1,66 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #130606;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+#picture {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-left: 150px;
+}
+
+.content {
+    float: left;
+    margin-left: 5px;
+    width: 50%;
+    text-align: justify;
+}
+
+.inner-header {
+    display: flex;
+    place-items: center;
+    margin: 0 5% 100px 5%;
+}
+
+.logo-container {
+    background-color: #130606;
+    color: white;
+}
+
+header {
+    background-color: #130606;
+}
+
+#contacts {
+    color: brown;
+}
+
+.contacts:hover {
+    background-color: gold;
+    width: 25%;
+}
+
+.hobby {
+    margin-left: 220px;
+}
